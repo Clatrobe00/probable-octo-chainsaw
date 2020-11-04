@@ -1,0 +1,27 @@
+.relative {
+    position: relative;
+    background-color: green;
+    height: 40px;
+    width: 70%;
+}
+
+.absolute {
+    position: absolute;
+    background-color: #eee;
+    height: 300px;
+    width: 100%;
+    left: 400px;
+
+}
+
+.fixed {
+    height: 150px;
+    width: 150px;
+    background-color: #999;
+}
+
+.sticky {
+    position: sticky;
+    width: 80%;
+    text-align: center;
+}
