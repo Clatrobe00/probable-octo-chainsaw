@@ -1,27 +1,42 @@
 .relative {
     position: relative;
-    background-color: green;
-    height: 40px;
-    width: 70%;
+    background-color:lightgrey;
+    height: 150px;
+    width: 1200px;
+    margin-left: 40px;
+    margin-right: 40px; 
+    color: cornflowerblue;
+    padding: 15px;
 }
 
 .absolute {
     position: absolute;
-    background-color: #eee;
-    height: 300px;
-    width: 100%;
-    left: 400px;
-
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    bottom: 0px;
+    right: 0px;
+    color: crimson;
+       
 }
 
 .fixed {
+    position: fixed;
     height: 150px;
     width: 150px;
     background-color: #999;
+    top: 0px;
+    left: 0px;
 }
 
-.sticky {
-    position: sticky;
-    width: 80%;
-    text-align: center;
+.text {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+}
+
+.wrapper {
+    margin-left: 40px;
+    margin-right: 40px;
+    top: 0px;
 }
