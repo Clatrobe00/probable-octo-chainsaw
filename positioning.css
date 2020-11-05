@@ -1,32 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
 .relative {
     position: relative;
-    background-color:lightgrey;
+    background-color: #eee;
     height: 150px;
-    width: 1200px;
-    margin-left: 40px;
-    margin-right: 40px; 
-    color: cornflowerblue;
     padding: 15px;
+    text-align: center;
 }
 
 .absolute {
     position: absolute;
-    background-color: black;
-    height: 50px;
-    width: 100px;
+    background-color: #999;
+    text-align: center;
     bottom: 0px;
-    right: 0px;
-    color: crimson;
+    right: -20px;
        
 }
 
 .fixed {
     position: fixed;
-    height: 150px;
-    width: 150px;
-    background-color: #999;
+ 
+    background-color: #eee;
+    padding: 40px;
     top: 0px;
     left: 0px;
+    text-align: center;
+    margin: 0px;
 }
 
 .text {
@@ -36,7 +37,13 @@
 }
 
 .wrapper {
-    margin-left: 40px;
-    margin-right: 40px;
-    top: 0px;
+    width: 600px;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+}
+
+p {
+    font-size: 24;
+    line-height: 32px;
+    color: black;
 }
